@@ -19,3 +19,20 @@ SELECT
 FROM Campaigns
 GROUP BY campaign_type
 ORDER BY ROI DESC;
+
+-- Calculate ROI by advertising platform
+
+SELECT 
+  platform,
+  (SUM(revenue) - SUM(ad_spend)) * 1.0 / SUM(ad_spend) AS ROI
+FROM global_ads_performance_dataset
+GROUP BY platform
+ORDER BY ROI DESC;
+
+### 📊 Results
+
+| Platform | ROI |
+|---|---|
+| Tik Tok Ads | 6.62% |
+| Meta Ads | 4.66% |
+| Google Ads | 2.47% |
