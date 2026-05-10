@@ -10,7 +10,9 @@ I am a data-driven marketing professional with experience in communications and 
 - SQL (Joins, Aggregations, CTEs, Window Functions)
 - Data Analysis
 - Marketing Analytics
--- Calculate ROI by campaign type
+
+-- Objective: Identify which campaign type generates the highest ROI
+
 SELECT 
   campaign_type,
   SUM(revenue) - SUM(ad_spend) AS ROI
