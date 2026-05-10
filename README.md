@@ -14,19 +14,20 @@ I am a data-driven marketing professional with experience in communications and 
 -- Objective: Identify which campaign type generates the highest ROI
 
 SELECT 
-  campaign_type,
-  SUM(revenue) - SUM(ad_spend) AS ROI
-FROM Campaigns
-GROUP BY campaign_type
+  campaign_type, 
+  (SUM(revenue) - SUM(ad_spend) )/ SUM(ad_spend) AS ROI
+FROM global_ads_performance_dataset 
+GROUP BY campaign_type 
 ORDER BY ROI DESC;
 
 ### 📊 Results
 
 | Campaign | ROI |
 |---|---|
-| Search | 6.62% |
-| Meta Ads | 4.66% |
-| Google Ads | 2.47% |
+| Search | 4.30% |
+| Display | 3.83% |
+| Video | 3.77% |
+| Shopping | 3.58% |
 
 -- Calculate ROI by advertising platform
 
