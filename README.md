@@ -30,6 +30,8 @@ ORDER BY ROI DESC;
 
 -- Calculate ROI by advertising platform
 
+![Campaign ROI Results](campaign_roi_results.png)
+
 SELECT 
   platform,
   (SUM(revenue) - SUM(ad_spend)) * 1.0 / SUM(ad_spend) AS ROI
