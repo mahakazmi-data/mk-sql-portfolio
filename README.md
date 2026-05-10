@@ -20,6 +20,14 @@ FROM Campaigns
 GROUP BY campaign_type
 ORDER BY ROI DESC;
 
+### 📊 Results
+
+| Campaign | ROI |
+|---|---|
+| Search | 6.62% |
+| Meta Ads | 4.66% |
+| Google Ads | 2.47% |
+
 -- Calculate ROI by advertising platform
 
 SELECT 
