@@ -70,6 +70,7 @@ ORDER BY ROI DESC;
 
 **A2: Our TikTok Ads have the highest ROI, therefore performing the best.**
 
+---
 
 Q3: Which campaign should we invest more in?
 -- Calculate which campaign we should invest more in based on ROI, Revenue, and Ad Spend.
