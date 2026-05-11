@@ -19,8 +19,9 @@ Situation: Soothe, a hand lotion company, has data on its marketing stats. They 
 - 1. Which campaign has the highest ROI?
 - 2. Which platform performs best?
 - 3. Which campaign should we invest more in?
+---
 
-Q1: Which campaign has the highest ROI?
+## Q1: Which campaign has the highest ROI?
 -- Objective: Identify which campaign type generates the highest ROI
 
 SQL Query: 
@@ -47,7 +48,7 @@ ORDER BY ROI DESC;
 
 ---
 
-Q2: Which platform performs best?
+## Q2: Which platform performs best?
 -- Calculate ROI by advertising platform
 
 ```sql
@@ -72,7 +73,7 @@ ORDER BY ROI DESC;
 
 ---
 
-Q3: Which campaign should we invest more in?
+## Q3: Which campaign should we invest more in?
 -- Calculate which campaign we should invest more in based on ROI, Revenue, and Ad Spend.
 
 ```sql
