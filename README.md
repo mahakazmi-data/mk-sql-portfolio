@@ -50,3 +50,24 @@ ORDER BY ROI DESC;
 
 ![Platform ROI Results](platform_roi_results.png)
 
+-- Calculate which campaign we should invest more in based on ROI, Revenue, and Ad Spend.
+
+SELECT 
+  campaign_type, 
+  (SUM(revenue) - SUM(ad_spend) ) *1.0 / SUM(ad_spend) AS ROI,
+  SUM (revenue) AS total_revenue,
+  SUM (ad_spend) AS total_ad_spend
+FROM global_ads_performance_dataset 
+GROUP  BY campaign_type 
+ORDER  BY ROI DESC;
+
+### 📊 Results
+
+| Campaign | ROI | Revenue | Ad Spend| 
+|---|---|---|---|
+| Search | 4.30% |15218470.85 | 2868006.85 |
+| Display | 3.83% |12798903.17 | 2644735.12 |
+| Video | 3.77% |13341261.19 | 2796458.48 |
+| Shopping | 3.58% |12824695.6 |2799548.64 |
+
+![Campaign to Invest in More Results](ROI_Revenue_Spend.png)
