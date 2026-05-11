@@ -12,7 +12,7 @@ I am a data-driven professional with experience in Marketing, Communications, an
 - Data Analysis
 - Marketing Analytics
 
-## Global Marketing Campaign Analysis
+## 📈 Global Marketing Campaign Analysis 
 
 Situation: Soothe, a hand lotion company, has data on its marketing stats. They want to determine the most valuable use of their Ad Budget based on previous performance on various platforms and campaigns. They want answers to the following to determine this: 
 
