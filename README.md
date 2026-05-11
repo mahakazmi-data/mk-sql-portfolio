@@ -4,25 +4,34 @@ I am a data-driven professional with experience in Marketing, Communications, an
 
 ## Project Index
 - 1. Global Marketing Campaign Analysis
-- 2. Comming Soon
-- 3. Comming Soon
+- 2. Coming Soon
+- 3. Coming Soon
 
 ## Skills
 - SQL (Joins, Aggregations)
 - Data Analysis
 - Marketing Analytics
 
+## Tools Used
+- SQLite / DB Browser
+- SQL
+- GitHub
+- Kaggle Dataset
+
 ## 📈 Global Marketing Campaign Analysis 
 
-Situation: Soothe, a hand lotion company, has data on its marketing stats. They want to determine the most valuable use of their Ad Budget based on previous performance on various platforms and campaigns. They want answers to the following to determine this: 
+Situation: Soothe, a hand lotion company, has data on its marketing stats. They want to determine how to allocate their advertising budget most effectively based on historical campaign performance. They want answers to the following to determine this: 
 
 - 1. Which campaign has the highest ROI?
 - 2. Which platform performs best?
 - 3. Which campaign should we invest more in?
+
+
 ---
 
 ## Q1: Which campaign has the highest ROI?
--- Objective: Identify which campaign type generates the highest ROI
+
+-- Objective: Identify which campaign type generates the highest ROI...
 
 SQL Query: 
 ```sql
@@ -39,17 +48,18 @@ ORDER BY ROI DESC;
 
 | Campaign | ROI |
 |---|---|
-| Search | 4.30% |
-| Display | 3.83% |
-| Video | 3.77% |
-| Shopping | 3.58% |
+| Search | 430% |
+| Display | 383% |
+| Video | 377% |
+| Shopping | 358% |
 
 **A1: Our search campaign has the highest ROI**
 
 ---
 
 ## Q2: Which platform performs best?
--- Calculate ROI by advertising platform
+
+-- Calculate ROI by advertising platform...
 
 ```sql
 SELECT 
@@ -65,16 +75,17 @@ ORDER BY ROI DESC;
 
 | Platform | ROI |
 |---|---|
-| Tik Tok Ads | 6.62% |
-| Meta Ads | 4.66% |
-| Google Ads | 2.47% |
+| Tik Tok Ads | 662% |
+| Meta Ads | 466% |
+| Google Ads | 247% |
 
 **A2: Our TikTok Ads have the highest ROI, therefore performing the best.**
 
 ---
 
 ## Q3: Which campaign should we invest more in?
--- Calculate which campaign we should invest more in based on ROI, Revenue, and Ad Spend.
+
+-- Calculate which campaign we should invest more in based on ROI, Revenue, and Ad Spend...
 
 ```sql
 SELECT 
@@ -92,12 +103,12 @@ ORDER  BY ROI DESC;
 
 | Campaign | ROI | Revenue | Ad Spend| 
 |---|---|---|---|
-| Search | 4.30% |15218470.85 | 2868006.85 |
-| Display | 3.83% |12798903.17 | 2644735.12 |
-| Video | 3.77% |13341261.19 | 2796458.48 |
-| Shopping | 3.58% |12824695.6 |2799548.64 |
+| Search | 430% |15218470.85 | 2868006.85 |
+| Display | 383% |12798903.17 | 2644735.12 |
+| Video | 377% |13341261.19 | 2796458.48 |
+| Shopping | 358% |12824695.6 |2799548.64 |
 
-**A3: We should invest more in the Search Campaign because it has the highest ROI at 4.30%, along with the highest total revenue. In comparison, Display has good ROI but lower revenue, Video has moderate performance, and Shopping has the lowest ROI.**
+**A3: We should invest more in the Search Campaign because it has the highest ROI at 430%, along with the highest total revenue. In comparison, Display has good ROI but lower revenue, Video has moderate performance, and Shopping has the lowest ROI.**
 
 
 # 📌 Conclusions
