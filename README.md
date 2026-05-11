@@ -32,6 +32,8 @@ FROM global_ads_performance_dataset
 GROUP BY campaign_type 
 ORDER BY ROI DESC;
 ```
+![Campaign ROI Results](campaign_roi_results.png)
+
 ### 📊 Results
 
 | Campaign | ROI |
@@ -41,16 +43,21 @@ ORDER BY ROI DESC;
 | Video | 3.77% |
 | Shopping | 3.58% |
 
+**A1: Our search campaign has the highest ROI**
+
+
+Q2: Which platform performs best?
 -- Calculate ROI by advertising platform
 
-![Campaign ROI Results](campaign_roi_results.png)
-
+```sql
 SELECT 
   platform,
   (SUM(revenue) - SUM(ad_spend)) * 1.0 / SUM(ad_spend) AS ROI
 FROM global_ads_performance_dataset
 GROUP BY platform
 ORDER BY ROI DESC;
+```
+![Platform ROI Results](platform_roi_results.png)
 
 ### 📊 Results
 
@@ -60,10 +67,13 @@ ORDER BY ROI DESC;
 | Meta Ads | 4.66% |
 | Google Ads | 2.47% |
 
-![Platform ROI Results](platform_roi_results.png)
+**A2: Our TikTok Ads have the highest ROI, therefore performing the best.**
 
+
+Q3: Which campaign should we invest more in?
 -- Calculate which campaign we should invest more in based on ROI, Revenue, and Ad Spend.
 
+```sql
 SELECT 
   campaign_type, 
   (SUM(revenue) - SUM(ad_spend) ) *1.0 / SUM(ad_spend) AS ROI,
@@ -72,6 +82,8 @@ SELECT
 FROM global_ads_performance_dataset 
 GROUP  BY campaign_type 
 ORDER  BY ROI DESC;
+```
+![Campaign to Invest in More Results](ROI_Revenue_Spend.png)
 
 ### 📊 Results
 
@@ -82,4 +94,17 @@ ORDER  BY ROI DESC;
 | Video | 3.77% |13341261.19 | 2796458.48 |
 | Shopping | 3.58% |12824695.6 |2799548.64 |
 
-![Campaign to Invest in More Results](ROI_Revenue_Spend.png)
+**A3: We should invest more in the Search Campaign because it has the highest ROI at 4.30%, along with the highest total revenue. In comparison, Display has good ROI but lower revenue, Video has moderate performance, and Shopping has the lowest ROI.**
+
+
+# 📌 Conclusions
+
+Based on the SQL analysis, the following conclusions were identified:
+
+1. The **Search campaign** demonstrated consistently strong performance due to its historically high ROI and highest total revenue.
+
+2. **TikTok Ads** emerged as the highest-performing advertising platform overall, generating the strongest ROI among all platforms analyzed.
+
+3. Based on both profitability and efficiency metrics, increasing investment in **Search campaigns** could improve overall marketing effectiveness and maximize return on advertising spend.
+
+
