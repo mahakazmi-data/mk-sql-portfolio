@@ -2,24 +2,36 @@
 
 I am a data-driven professional with experience in Marketing, Communications, and Data Analytics. This portfolio showcases SQL projects focused on business insights and data storytelling.
 
-## Projects
-- Marketing Campaign Analysis
-- Sales Performance Dashboard (coming soon)
+## Project Index
+- 1. Global Marketing Campaign Analysis
+- 2. Comming Soon
+- 3. Comming Soon
 
 ## Skills
-- SQL (Joins, Aggregations, CTEs, Window Functions)
+- SQL (Joins, Aggregations)
 - Data Analysis
 - Marketing Analytics
 
+## Global Marketing Campaign Analysis
+
+Situation: Soothe, a hand lotion company, has data on its marketing stats. They want to determine the most valuable use of their Ad Budget based on previous performance on various platforms and campaigns. They want answers to the following to determine this: 
+
+- 1. Which campaign has the highest ROI?
+- 2. Which platform performs best?
+- 3. Which campaign should we invest more in?
+
+Q1: Which campaign has the highest ROI?
 -- Objective: Identify which campaign type generates the highest ROI
 
+SQL Query: 
+```sql
 SELECT 
   campaign_type, 
   (SUM(revenue) - SUM(ad_spend) )/ SUM(ad_spend) AS ROI
 FROM global_ads_performance_dataset 
 GROUP BY campaign_type 
 ORDER BY ROI DESC;
-
+```
 ### 📊 Results
 
 | Campaign | ROI |
