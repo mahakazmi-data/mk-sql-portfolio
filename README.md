@@ -1,6 +1,6 @@
-# Maha Kazmi - SQL Portfolio
+# Maha B. Kazmi - SQL Portfolio
 
-I am a data-driven marketing professional with experience in communications and analytics. This portfolio showcases SQL projects focused on business insights and data storytelling.
+I am a data-driven professional with experience in Marketing, Communications, and Data Analytics. This portfolio showcases SQL projects focused on business insights and data storytelling.
 
 ## Projects
 - Marketing Campaign Analysis
