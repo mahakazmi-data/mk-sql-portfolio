@@ -46,8 +46,7 @@ ORDER BY ROI DESC;
 **A1: Our search campaign has the highest ROI**
 
 ---
----
----
+
 Q2: Which platform performs best?
 -- Calculate ROI by advertising platform
 
