@@ -88,4 +88,17 @@ ORDER BY total_spend DESC;
 A: Montana, Illinois, and California spend the most overall.
 
 
+## Q3: Which product category generates the most revenue?
 
+SQL Query: 
+
+```sql
+SELECT  Category, 
+SUM ( "Purchase Amount (USD)") AS category_revenue
+FROM shopping_trends
+GROUP BY Category
+ORDER BY category_revenue DESC;
+```
+IMAGE
+
+A: The clothing category generates the most revenue, followed by Accessories, footwear, and lastly outerwear.
