@@ -42,8 +42,16 @@ AVG ( "Purchase Amount (USD)") AS avg_purchase
 FROM shopping_trends
 GROUP BY Age
 ORDER BY Avg_purchase DESC;
-
-
+```
+![Spending by age](Age_Spending.png)
 
 ## Insights
-- To be added
+- Customers aged 53 had the highest average purchase amount
+- Customers between the ages of 49 and 54 consistently showed strong spending behavior
+- Younger age groups generally spent less on average
+
+A: Customers aged 53 had the highest average purchase amount
+
+---
+
+
