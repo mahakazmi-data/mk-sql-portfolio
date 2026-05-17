@@ -44,7 +44,6 @@ GROUP BY Age
 ORDER BY Avg_purchase DESC;
 ```
 ![Spending by age](Age_Spending.png)
-![Spending by age](age_spending.png)
 
 ## Insights
 - Customers aged 53 had the highest average purchase amount
