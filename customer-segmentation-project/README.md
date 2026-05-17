@@ -101,4 +101,4 @@ ORDER BY category_revenue DESC;
 ```
 ![Revenue by category](Category_revenue.png)
 
-A: The clothing category generates the most revenue, followed by Accessories, footwear, and lastly outerwear.
+A: The clothing category generates the most revenue, followed by accessories, footwear, and lastly outerwear.
