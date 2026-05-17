@@ -68,7 +68,7 @@ GROUP BY Location
 ORDER BY Avg_purchase DESC;
 ```
 
-IMAGE HERE
+![Spending Location Per Order](Location_Spend_per_order.png)
 
 A: Alaska, Pennsylvania, and Arizona spend the most per order
 
@@ -83,7 +83,7 @@ FROM shopping_trends
 GROUP BY Location
 ORDER BY total_spend DESC;
 ```
-IMAGE
+![Sum of Location Spend](Overall_location_spend.png)
 
 A: Montana, Illinois, and California spend the most overall.
 
