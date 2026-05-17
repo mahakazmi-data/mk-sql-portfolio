@@ -54,4 +54,38 @@ A: Customers aged 53 had the highest average purchase amount
 
 ---
 
+## Q1: Which region performs the best? 
+
+-- Objective: Identify which region spends the most. 
+
+SQL Query: 
+
+```sql
+SELECT  Location, 
+AVG ( "Purchase Amount (USD)") AS avg_purchase 
+FROM shopping_trends
+GROUP BY Location
+ORDER BY Avg_purchase DESC;
+```
+
+IMAGE HERE
+
+A: Alaska, Pennsylvania, and Arizona spend the most per order
+
+But which location spends the most overall? 
+
+SQL Query: 
+
+```sql
+SELECT  Location, 
+SUM ( "Purchase Amount (USD)") AS total_spend
+FROM shopping_trends
+GROUP BY Location
+ORDER BY total_spend DESC;
+```
+IMAGE
+
+A: Montana, Illinois, and California spend the most overall.
+
+
 
