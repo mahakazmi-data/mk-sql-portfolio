@@ -51,3 +51,5 @@ GROUP BY strftime('%Y-%m', Date)
 ORDER BY month;
 ```
 ![Spikes in sales](Spikes_in_sales.png)
+
+A: Based on this, we can tell that baseline demands are very stable. However, there is a prominent dip in June 2023 when sales decrease by 97% at 6,839 sales that month. In terms of seasonal spikes, there are no true seasonal spikes but there are mild end-of-quarter / year-end uplifts.
