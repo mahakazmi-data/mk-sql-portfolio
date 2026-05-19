@@ -68,4 +68,6 @@ GROUP BY "Car Make"
 ORDER BY total_revenue DESC;
 ```
 
+![Car make revenue](Car_make_revenue.png)
 
+A: Here, we can identify Honda as the car brand generating the most revenue.
