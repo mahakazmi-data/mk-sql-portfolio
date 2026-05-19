@@ -50,4 +50,4 @@ FROM car_sales_data
 GROUP BY strftime('%Y-%m', Date)
 ORDER BY month;
 ```
-![Monthly Car Sales](Monthly_Sales.png)
+![Spikes in sales](Spikes_in_sales.png)
