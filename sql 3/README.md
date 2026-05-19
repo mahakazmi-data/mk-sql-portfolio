@@ -20,14 +20,20 @@ I am a data-driven professional with experience in Marketing, Communications, an
 
 --- 
 
-## Which month had the highest sales?
+## Which months had the highest sales?
 
 SQL Query: 
 ```sql
 SELECT 
-  campaign_type, 
-  (SUM(revenue) - SUM(ad_spend) )/ SUM(ad_spend) AS ROI
-FROM global_ads_performance_dataset 
-GROUP BY campaign_type 
-ORDER BY ROI DESC;
+    substr(Date, 1, 7) AS month,
+    SUM("Sale Price") AS total_sales
+FROM car_sales_data
+GROUP BY month
+ORDER BY total_sales DESC;
 ```
+IMAGE HERE 
+
+A: The top 3 months with the highest sales were December 2022, October 2022, and August 2022. 
+
+
+---
