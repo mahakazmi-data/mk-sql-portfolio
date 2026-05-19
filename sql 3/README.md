@@ -53,3 +53,19 @@ ORDER BY month;
 ![Spikes in sales](Spikes_in_sales.png)
 
 A: Based on this, we can tell that baseline demands are very stable. However, there is a prominent dip in June 2023 when sales decrease by 97% at 6,839 sales that month. In terms of seasonal spikes, there are no true seasonal spikes but there are mild end-of-quarter / year-end uplifts.
+
+----
+
+Q: Which car make generates the most revenue?
+
+SQL Query: 
+```sql
+SELECT
+  "Car Make",
+  Sum ("Sale Price") AS total_revenue
+FROM car_sales_data
+GROUP BY "Car Make"
+ORDER BY total_revenue DESC;
+```
+
+
