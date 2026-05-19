@@ -31,7 +31,7 @@ FROM car_sales_data
 GROUP BY month
 ORDER BY total_sales DESC;
 ```
-IMAGE HERE 
+![Monthly Car Sales](Monthly_Sales.png)
 
 A: The top 3 months with the highest sales were December 2022, October 2022, and August 2022. 
 
