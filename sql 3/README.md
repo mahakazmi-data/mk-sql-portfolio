@@ -37,3 +37,17 @@ A: The top 3 months with the highest sales were December 2022, October 2022, and
 
 
 ---
+
+
+## Are there seasonal spikes?
+
+SQL Query: 
+```sql
+SELECT
+  strftime('%Y-%m', Date) AS month,
+  COUNT(*) AS total_sales
+FROM car_sales_data
+GROUP BY strftime('%Y-%m', Date)
+ORDER BY month;
+```
+![Monthly Car Sales](Monthly_Sales.png)
