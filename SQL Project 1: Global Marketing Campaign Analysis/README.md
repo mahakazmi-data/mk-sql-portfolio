@@ -26,9 +26,9 @@ Soothe, a hand lotion company, wants to optimize its advertising budget using hi
 
 Key Questions
 
-Which campaign generates the highest ROI?
-Which advertising platform performs best?
-Which campaigns should receive additional investment?
+- Which campaign generates the highest ROI?
+- Which advertising platform performs best?
+- Which campaigns should receive additional investment?
 
 ---
 
