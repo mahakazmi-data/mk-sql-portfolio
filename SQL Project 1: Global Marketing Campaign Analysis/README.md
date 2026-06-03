@@ -3,7 +3,7 @@
 I am a data-driven professional with experience in Marketing, Communications, and Data Analytics. This portfolio showcases SQL projects focused on business insights and data storytelling.
 
 ## Project Index
-- 1. Global Marketing Campaign Analysis
+- 1. Global Marketing Campaign Analysis <- You are here
 - 2. Customer Segmentation Project
 - 3. Car Sales Performance & Revenue Trends Analysis
 
