@@ -4,7 +4,7 @@ I am a data-driven professional with experience in Marketing, Communications, an
 
 ## Project Index
 - 1. Global Marketing Campaign Analysis
-- 2. Customer Segmentation Project
+- 2. Customer Segmentation Project <- You are here 
 - 3. Car Sales Performance & Revenue Trends Analysis
 
 ## Skills
