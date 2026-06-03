@@ -5,7 +5,7 @@ I am a data-driven professional with experience in Marketing, Communications, an
 ## Project Index
 - 1. Global Marketing Campaign Analysis
 - 2. Customer Segmentation Project
-- 3. Car Sales Performance & Revenue Trends Analysis
+- 3. Car Sales Performance & Revenue Trends Analysis <- You are here
 
 ## Skills
 - SQL (Joins, Aggregations)
