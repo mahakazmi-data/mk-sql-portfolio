@@ -102,3 +102,12 @@ ORDER BY category_revenue DESC;
 ![Revenue by category](Category_revenue.png)
 
 A: The clothing category generates the most revenue, followed by accessories, footwear, and lastly outerwear.
+
+
+# 📌 Conclusions
+
+Based on the SQL analysis, the following conclusions were identified:
+
+1. The age range that spends the most is less, so younger age groups and more so those in their 50s and beyond.
+2. While Alaska, Pennsylvania, and Arizona spend the most per order, Montana, Illinois, and California spend the most overall.
+3. The clothing category generates the most revenue, followed by accessories, footwear, and lastly outerwear.
