@@ -71,3 +71,11 @@ ORDER BY total_revenue DESC;
 ![Car make revenue](Car_make_revenue.png)
 
 A: Here, we can identify Honda as the car brand generating the most revenue.
+
+# 📌 Conclusions
+
+Based on the SQL analysis, the following conclusions were identified:
+
+1. The top 3 months with the highest sales were December 2022, October 2022, and August 2022. 
+2. Baseline demands are very stable. However, there is a prominent dip in June 2023 when sales decrease by 97% at 6,839 sales that month. In terms of seasonal spikes, there are no true seasonal spikes, but there are mild end-of-quarter / year-end uplifts.
+3. Honda is the car brand generating the most revenue.
