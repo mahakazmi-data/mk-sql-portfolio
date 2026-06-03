@@ -20,12 +20,15 @@ I am a data-driven professional with experience in Marketing, Communications, an
 
 ## 📈 Global Marketing Campaign Analysis 
 
-Situation: Soothe, a hand lotion company, has data on its marketing stats. They want to determine how to allocate their advertising budget most effectively based on historical campaign performance. They want answers to the following to determine this: 
+Business Problem
 
-- 1. Which campaign has the highest ROI?
-- 2. Which platform performs best?
-- 3. Which campaign should we invest more in?
+Soothe, a hand lotion company, wants to optimize its advertising budget using historical marketing campaign data. The goal is to identify the highest-performing campaigns and platforms to improve future marketing investment decisions.
 
+Key Questions
+
+Which campaign generates the highest ROI?
+Which advertising platform performs best?
+Which campaigns should receive additional investment?
 
 ---
 
